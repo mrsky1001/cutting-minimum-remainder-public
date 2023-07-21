@@ -1,0 +1,13 @@
+{
+  "name": "cutting-minimum-remainder-public",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": " touch build/.nojekyll && gh-pages -d build -t true"
+  },
+  "author": "mrsky1001 <nikita.nk16@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "type": "module"
+}

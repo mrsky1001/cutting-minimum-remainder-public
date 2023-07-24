@@ -9,15 +9,15 @@
     <meta name="viewport" content="width=device-width"/>
     <script src="https://cdn.tiny.cloud/1/a0ijmuegf97wcitfcjbqekt4zuq9huhhxhs82hblex68xzkd/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     
-		<link href="./_app/immutable/assets/0.cb730959.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.8dee3bab.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Indicator.1d121e74.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.b5578aa1.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.999f7f34.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.6d77475c.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.425c40ce.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.5511a5b1.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.4b6a4ba8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.19a3b027.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5df66874.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.16653a48.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Indicator.svelte_svelte_type_style_lang.e2c519f7.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.5ca43645.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.eeed9e47.js">
     <title>Страница тестирования реализации алгоритма решения проблемы оптимального раскроя ЗЛП
         симплекс-методом.</title>
 </head>
@@ -105,7 +105,7 @@
 
 
 
-<input id="allowanceSawing" type="text" name="allowanceSawing" required placeholder="Припуск при распиле (в миллиметрах)..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:bg-[white] focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="0"></div></div></form></div></section>
+<input id="allowanceSawing" type="text" name="allowanceSawing" required placeholder="Припуск при распиле (в миллиметрах)..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:bg-[white] focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="5"></div></div></form></div></section>
                     <img class="h-auto max-w-full max-h-72 m-auto" src="_app/immutable/assets/workPiece.321ca12f.png" alt="">
                     <div class="relative overflow-x-auto"><button class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center float-right text-white bg-primary-600 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-700">Запустить расчет
                         </button></div>
@@ -123,11 +123,11 @@
                                         <td class="px-6 py-4">
 
 
-<input id="lengthAPiece" type="text" name="lengthAPiece"  placeholder="Длина верхнего основания детали..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:bg-[white] focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="1500"></td>
+<input id="lengthAPiece" type="text" name="lengthAPiece"  placeholder="Длина верхнего основания детали..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:bg-[white] focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="500"></td>
                                         <td class="px-6 py-4">
 
 
-<input id="lengthCPiece" type="text" name="lengthCPiece"  placeholder="Длина нижнего основания детали..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:bg-[white] focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="1500"></td>
+<input id="lengthCPiece" type="text" name="lengthCPiece"  placeholder="Длина нижнего основания детали..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:bg-[white] focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="500"></td>
                                         <td class="px-6 py-4">
 
 
@@ -170,17 +170,17 @@
 
                         <button class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center float-right text-white bg-primary-600 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-700">+ Добавить деталь
                         </button></div>
-                    <div id="containerWorkPieceCanvases" class="flex flex-col"></div>
-                    <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Результаты вычислений</h2>
-
-                    <div id="log" contenteditable="true"></div></div></div></main></div>
+                    <div class="mt-5"><h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Варианты раскроя</h2>
+                        <div id="containerWorkPieceCanvases" class="flex flex-col"></div></div>
+                    <div class="mt-5"><h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Результаты вычислений</h2>
+                        <div id="log" contenteditable="true"></div></div></div></div></main></div>
 </div>
 
 
 			
 			<script>
 				{
-					__sveltekit_1p9mmwk = {
+					__sveltekit_cn85em = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -190,8 +190,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.b5578aa1.js"),
-						import("./_app/immutable/entry/app.5511a5b1.js")
+						import("./_app/immutable/entry/start.999f7f34.js"),
+						import("./_app/immutable/entry/app.5df66874.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

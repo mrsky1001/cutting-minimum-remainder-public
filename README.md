@@ -20,4 +20,4 @@ Ask me into telegram @mrsky1001
 https://mrsky1001.github.io/cutting-minimum-remainder-public/
 
 ### Нужен код?
-Спроси меня в телеграмме @mrsky1001
+Спроси меня в телеграме @mrsky1001
